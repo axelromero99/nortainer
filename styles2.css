@@ -1,0 +1,129 @@
+@font-face {
+    font-family:GothamBook;
+    src: url(fuentes/Gotham-Font/GothamBook.ttf);
+}
+
+@font-face {
+    font-family:GothamBold;
+    src: url(fuentes/Gotham-Font/GothamBold.ttf);
+}
+
+body{
+    color:#3fa4a7;
+}
+
+p{
+    margin: 0.3px;
+    font-family: GothamBook;
+}
+
+h3{
+    margin: 0.3px;
+    font-family: GothamBold;
+}
+
+.superior{
+    background: #0c3f6a;
+}
+
+.row.logo{
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+.row.leyenda{
+    margin-bottom: 5%;
+}
+
+#separador{
+    z-index: 1;
+    transform: translate(0px,10px);
+}
+
+.inferior{
+    margin-top: 3%;
+    background-color: #fff;
+}
+
+.izquierda{
+    margin-right: 2%;
+}
+
+.derecha{
+    margin-left: 2%;
+}
+
+.redes{
+    margin-top: 10%;
+}
+
+#fb{
+    margin-left: 39%;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/* MEDIA QUERIES*/
+@media (max-width: 530px) {
+
+    img {
+        width: 60%;
+    }
+
+    img.redes {
+        width:40px;
+        height:40px;
+    }
+
+    .inferior{
+        margin-top: 6%;
+    }
+
+    p{
+        font-size:0.8rem;
+    }
+    h3{
+        font-size:1rem;
+    }
+    .izquierda{
+        margin-right: 2%;
+    }
+    
+    .derecha{
+        margin-left: 2%;
+    }
+
+    .redes{
+        width: 30px; 
+        height: 30px;
+    }
+
+    #fb{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 370px){
+    .inferior{
+        margin-top: 9%;
+    }
+}
+
+@media (max-width: 300px){
+
+    #separador{
+        z-index: 1;
+        transform: translate(0px,5px);
+    }
+
+    .izquierda{
+        margin-right: 0%;
+    }
+    
+    .derecha{
+        margin-left: 0%;
+    }
+}
